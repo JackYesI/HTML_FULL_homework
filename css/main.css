@@ -7,28 +7,21 @@ body{
     margin:  0 auto;
 
 }
+h1{
+    font-family: cursive;
+}
 #span{
     color: orange;
-
-}
-h1{
-    color: black;
-    
 }
 ul{
     list-style-image: url('img/list.png');
-    border-style: none;
     margin: 10px;
     margin-top: 80px;
     margin-left: 0;
     
 }
 span{
-    border-style: none;
-    padding: 3px;
-    border: 3px;
     padding-left: 5px;
-    
 }
 #aside1{
     border: none;
@@ -44,34 +37,42 @@ a{
     color: white;
     text-decoration: none;
 }
-.menu{
-    display: inline-block;
-}
 #aside2{
-    border: none;
     margin-bottom: 15px;
     float: left;
-    margin-right: 20px;
+    
 }
 #aside3{
     clear: both;
     float: left;
-    border: none;
     margin-right: 15px;
 }
 #aside4{
-    border: none;
     float: left;
-    margin-right: 20px;
 }
 li{
     margin: 10px;
 }
+aside{
+    height: 600px;
+    width: 430px;
+    float: left;
+}
 main{
-    border-style: dotted;
+    height: 600px;
+    width: 500px;
+    margin-left: 440px;
+    
 }
 h2{
     border-style: none;
     background-color: #d0722e;
     color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+p{
+    color: #d0722e;
+    
 }
