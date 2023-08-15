@@ -1,0 +1,80 @@
+body{
+    color: gray
+}
+
+table, tr , td {
+    border: 1px solid rgb(209, 209, 209);
+}
+
+table {
+    border-collapse: collapse;
+    
+    text-align: center;
+    margin: auto;
+    
+}
+tr, td{
+    padding: 20px;
+    
+}
+thead td{
+    padding: 7px;
+    
+}
+
+.price{
+    color: rgb(100, 207, 207);
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.font{
+    color: black;
+    font-size: 35px;
+}
+.size_num{
+    font-size: 40px;
+}
+.size_num2{
+    font-size: 20px;
+}
+.dolar_size{
+    font-size: 40px;
+    color: black;
+}
+.dolar_size2{
+    font-size: 20px;
+    color: black;
+}
+.per_slow{
+    font-size: 10px;
+}
+div{
+    background-color: rgb(243, 243, 243);
+    padding: 20px;
+    margin: 0;
+}
+tbody tr:nth-child(2n){
+    background-color: rgb(243, 243, 243);
+}
+tbody tr:last-child{
+    background-color: white;
+}
+.bottom{
+    background-color:#05050f;
+    color: #fff;
+    border:none;
+    margin: 15px;
+    padding: 8px;
+    
+}
+.bottom:hover{
+    background-color: rgb(100, 207, 207);
+    
+}
+.bottom:active{
+    background-color: red;
+}
+
+
