@@ -70,11 +70,18 @@ tbody tr:last-child{
     
 }
 .bottom:hover{
-    background-color: rgb(100, 207, 207);
+    background-color: rgb(100, 162, 207);
     
 }
 .bottom:active{
     background-color: red;
 }
-
+.colum{
+    background-color: rgb(100, 207, 207);
+    color: white;
+}
+.blue{
+    background-color: rgb(100, 207, 207);
+    color: white;
+}
 
