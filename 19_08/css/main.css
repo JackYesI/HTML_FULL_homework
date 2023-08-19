@@ -1,0 +1,39 @@
+body{
+    background-color: blue;
+    color: white;
+}
+h1{
+    padding-left: 50px;
+    margin-bottom: 13px;
+}
+.conteiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    margin: 50px;
+    margin-top: 0;
+}
+.inside{
+    padding: 60px;
+    color: blue;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Masonry{
+    grid-row: 1 / 3;
+}
+.Overlap{
+    grid-column: 3 / 5;
+}
+.Explicitly_Placed{
+    grid-area: 2 / 3 / 4/ 3;
+}
+.Named_Tracks{
+    grid-column: 3 / 5;
+}
+.Masonry_II{
+    grid-area: 3 / 2 / 5 / 3;
+}
