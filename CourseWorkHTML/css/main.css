@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1024px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px 300px repeat(3, 100px);
+}
+
+header, nav, section,main,
+figure, article, aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+img, article,
+aside{
+    color: black;
+}
+
+header{
+    background-color: #101528;
+}
+nav{
+    background-color: #ef3d4d;
+    grid-column: span 3;
+}
+section{
+    background-color: #4c86c6;
+    grid-column: span 4;
+}
+main{
+    background-color: #24344b;
+    grid-column: span 2;
+    grid-row: span 2 ;
+}
+figure{
+    background-color: #c1e4e6;
+    grid-column-start: 4;
+}
+article{
+    background-color: #4dbd97;
+    grid-column-start: 4;
+}
+aside{
+    background-color: #fed269;
+    grid-column: span 4;
+}
+
+@media (max-width:780px) {
+    .container{
+        width: 768px;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 50px repeat(2, 200px) repeat(2, 100px);
+    }
+    header{
+        grid-column: span 3;
+    }
+    section{
+        grid-row-start: 2;
+        grid-column: span 3;
+
+    }
+    nav{
+        grid-column: 1/span 1;
+        grid-row: 3/span 3;
+    }
+    main{
+        grid-row: span 1;
+    }
+    aside{
+        grid-row-start: 4;
+        grid-column: span 2;
+    }
+    article{
+        grid-row-start: 5;
+        grid-column-start: 2;
+    }
+    figure{
+        grid-row-start: 5;
+        grid-column-start: 3;
+    }
+}
+
+@media (max-width:425px) {
+    .container{
+        width: 425px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2,50px) repeat(2,100px) repeat(3,75px);
+    }
+
+    header, nav, section,main,
+    figure, article, aside{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    section{
+       
+
+    }
+    nav{
+        
+    }
+    main{
+        
+    }
+    aside{
+       grid-row-start: 5;
+    }
+    article{
+        grid-row-start: 6;
+    }
+    figure{
+        
+    }
+}
